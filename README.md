@@ -1,6 +1,8 @@
 # Introduction
 
-The Digital Twin Development Tool enables the users to develop digital models/ (twins of physical entities). The kit does not require you to have a physical model, but in terms of the use case in iPRODUCE you will probably have one.
+The Digital Twin Development Tool enables the users to develop digital models/twins of physical entities. The digital twins have the ability to replicate the physical behavior in digital environment through the injection of relevant data feeds. The digital twins can be stored and shared as part of learning and experimentation purposes.
+
+The Digital Twin Development Tool enables the users to develop digital models (twins of physical entities). The kit does not require you to have a physical model, but in terms of the use case in iPRODUCE you will probably have one.
 
 These models will allow OpIS users to develop, design, and deliver learning and training material using advanced digital technologies. 
 
