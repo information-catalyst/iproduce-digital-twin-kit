@@ -52,3 +52,14 @@ Should you wish to animate the model a data set must be imported into the SQL Da
 
 Once the model and data set have been imported, you will also need to create a BPMN flow diagram to orchestrate the model with the data. The BPMN will integrate the 3D model, data set and the code to animate the model such that a fully working model is realised.
 
+# Screen Shots
+
+The 3D Model
+![image](https://user-images.githubusercontent.com/403134/144400973-a3e70e83-f4c7-4cd8-80aa-c3e0c76949b6.png)
+
+
+The BPMN Sequencer
+![image](https://user-images.githubusercontent.com/403134/144400908-b17c87e8-7816-470b-be59-1a3ab6aab819.png)
+
+The Analytics Dashboard
+![image](https://user-images.githubusercontent.com/403134/144401023-873a2658-5d84-46ed-ba60-4753f22efed0.png)
