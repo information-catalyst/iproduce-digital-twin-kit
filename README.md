@@ -13,14 +13,9 @@ A Digital Twin can execute synthetic scenarios as part of training and support l
 # Overview
 This section provides a slightly more detailed view of the documentation. This is so that you can preview the essence of the document without having to unzip and extract the word document.
 
-## Current Version
-
-The current version is at the prototype stage.
-
-ICE are presently working on the fuller version which should be easier to integrate new models with.
-
 ## The Zip File
 The ZIP file should be extracted and the word document read in full before commencing activities with this project.
+
 ## Three.JS
 Three.js is a JavaScript library for displaying 3D models on webpages. We used the library to create models of our physical factory. You will need to be able to develop in JavaScript to follow this section of the guide.
 
