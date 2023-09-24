@@ -1,60 +1,61 @@
 # Introduction
 
-The Digital Twin Development Tool enables the users to develop digital models/twins of physical entities. The digital twins have the ability to replicate the physical behavior in digital environment through the injection of relevant data feeds. The digital twins can be stored and shared as part of learning and experimentation purposes.
+Discover the Digital Twin Development Tool, a technology designed for creating digital models, allowing businesses to mirror real-world behaviors in a digital realm. With this tool, not only can you simulate operational scenarios, but also design and deliver educational and training materials using advanced digital technologies.
 
-The Digital Twin Development Tool enables the users to develop digital models (twins of physical entities). The kit does not require you to have a physical model, but in terms of the use case in iPRODUCE you will probably have one.
+The development tool requires no physical model, offering a cost-effective and efficient way to visualize and test scenarios in a digital environment before implementing them on a larger scale. This feature not only conserves resources but also minimizes risks associated with trial and error in real-world settings.
 
-These models will allow OpIS users to develop, design, and deliver learning and training material using advanced digital technologies. 
+The digital twins serve as a remarkable resource for training, facilitating a realistic and interactive learning experience. The ability to simulate real-world scenarios enhances training effectiveness and prepares your team for actual operational challenges.
 
-Using a digital twin, activities can be simulated on a small scale and learn before they are used on a large scale without wasting any resources or damaging any equipment.
-
-A Digital Twin can execute synthetic scenarios as part of training and support learning activities.  
-
-# Overview
-This section provides a slightly more detailed view of the documentation. This is so that you can preview the essence of the document without having to unzip and extract the word document.
-
-## The Zip File
-The ZIP file should be extracted and the word document read in full before commencing activities with this project.
-
-## Three.JS
-Three.js is a JavaScript library for displaying 3D models on webpages. We used the library to create models of our physical factory. You will need to be able to develop in JavaScript to follow this section of the guide.
-
-The word document contains more information on how we use ThreeJS.
-
-Resources
-* [ThreeJS](https://threejs.org/)
-* [Documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
-* [Examples and videos](https://threejsfundamentals.org/threejs/lessons/threejs-responsive.html)
-* [Book Guide Written by one of the Developers](https://discoverthreejs.com/)
-* [Book written by Jos Dirksen](https://www.packtpub.com/product/learn-three-js-third-edition/9781788833288)
-
-## Physical Model
-The physical model used as in the kit is base on the Fisher Technik hardware components. The website is [fischertechnik.de](https://www.fischertechnik.de/en).
-
-## Technical Stack
-* Grafana - Analytics Dashboard
-* MySQL - Data set for driving and animating the model/hardware
-* JavaScript - Animating the model
-
-
-# Creating a New Model/Twin
-
-To create a Digital Twin a 3D model is created. This can be made using ThreeJS or another system.
-
-Then bespoke code is written in JavaScript to animate the model.
-
-Should you wish to animate the model a data set must be imported into the SQL Database.
-
-Once the model and data set have been imported, you will also need to create a BPMN flow diagram to orchestrate the model with the data. The BPMN will integrate the 3D model, data set and the code to animate the model such that a fully working model is realised.
+By utilizing the Digital Twin Development Tool, businesses can streamline the development process, optimize operational strategies, and deliver a more engaging learning experience. Experience the benefits of digital modeling and prepare your organization for the challenges and opportunities of the digital age.
 
 # Screen Shots
 
 The 3D Model
 ![image](https://user-images.githubusercontent.com/403134/144400973-a3e70e83-f4c7-4cd8-80aa-c3e0c76949b6.png)
 
-
 The BPMN Sequencer
 ![image](https://user-images.githubusercontent.com/403134/144400908-b17c87e8-7816-470b-be59-1a3ab6aab819.png)
 
 The Analytics Dashboard
 ![image](https://user-images.githubusercontent.com/403134/144401023-873a2658-5d84-46ed-ba60-4753f22efed0.png)
+
+# Getting Started with Digital Twin Development Tool
+
+Welcome to the operational guide to get your Digital Twin up and running smoothly. Follow the steps outlined below to ensure a seamless setup and execution. Make sure you have all the necessary prerequisites installed and ready to go.
+
+### Prerequisites
+
+- Docker installed on your machine.
+- Git installed on your machine.
+
+### Step 1: Clone the Repository
+
+Begin by cloning the repository to your local machine using the following command:
+
+```
+git clone https://github.com/information-catalyst/iproduce-digital-twin-kit.git
+```
+
+### Step 2: Extract and Launch
+
+Navigate to the directory where the repository has been cloned, and extract the 'Digital-Twin-Kit.zip' file. Post extraction, run the following command to launch the Docker containers:
+
+```
+docker-compose up
+```
+
+### Step 3: Access Documentation
+
+If further insights or details are needed, you can dive into the documentation. Navigate to the DOCUMENTATION folder within the repository and run the following command to launch the Docker containers for the documentation:
+
+```
+docker-compose up
+```
+
+Once the Docker containers are up and running, open your web browser and navigate to http://localhost:8000/ to access the documentation.
+
+Your Digital Twin setup should now be operational. Explore, Experiment and Enhance!
+
+Should you encounter any issues or have further inquiries, feel free to open a new issue on our GitHub repo.
+
+Thank you for choosing our Digital Twin Kit for your digital modeling needs!
